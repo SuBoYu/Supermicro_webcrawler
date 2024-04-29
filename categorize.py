@@ -38,10 +38,8 @@ directory_path = "file"
 
 categorize_files(directory_path)
 
-print(filename_list)
-print(len(filename_list))
+print("File name list: ", filename_list)
+print("Number of file: ", len(filename_list))
 
 for category, count in category_counts.items():
     print(f"{category}: {count} files")
-
-print(other)
