@@ -35,3 +35,6 @@ $ python3 main.py
 ```bash
 $ python3 categorize.py
 ```
+
+## Future work
+Some datasheets don't have the ".pdf" extension in the URL, as shown in the "datasheet_tag_problem.png" image. We need to identify and handle these special cases to ensure proper file handling and processing.
